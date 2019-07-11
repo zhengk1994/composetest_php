@@ -1,2 +1,4 @@
 FROM php:7.2-fpm
-COPY php.ini Users/zhengk1994/composetest_php/
+RUN docker-php-ext-install pdo_mysql
+RUN docker-php-ext-install mysqli
+COPY php.ini /usr/local/etc/php/

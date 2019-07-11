@@ -18,11 +18,11 @@
 					<td>password:<input type="password" name="password"></td>
 				</tr>
 
-				<tr>
+				<!-- <tr>
 					<td>confirm password:<input type="password" name="repassword"></td>
-				</tr>
+				</tr> -->
 
-		
+
 
 				<tr>
 					<td><input type="submit" value="SUBMIT">    <input type="reset" value="RESET"></td>
